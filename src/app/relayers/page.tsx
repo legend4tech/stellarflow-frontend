@@ -114,7 +114,7 @@ function RelayerIcon({
   size = 18,
   className,
 }: {
-  id: string;
+  id: (typeof RELAYER_ICON_IDS)[keyof typeof RELAYER_ICON_IDS];
   size?: number;
   className?: string;
 }) {
